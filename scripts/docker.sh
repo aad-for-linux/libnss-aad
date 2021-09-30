@@ -37,7 +37,6 @@ main() {
   # Build all testing docker images
   recursive_build ./test "${DEFAULT_IMAGE}" "${RELEASE}" 'testing'
 
-  sed "s/{{version}}/${VERSION}/" .bintray.json.in > bintray.json
 }
 
 main
