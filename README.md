@@ -1,4 +1,4 @@
-# libnss_aad [![Build Status][travis-badge]][travis-url] [![GPL-3.0-or-later][gpl-badge]][gpl-license] [![Download]
+# libnss_aad [![Build Status][![GPL-3.0-or-later][gpl-badge]][gpl-license] [![Download]
 
 _Name Service Switch (NSS) Module for performing user lookups against the Azure Active Directory (AAD)._
 
@@ -62,5 +62,3 @@ tux:$2a$12$tlMH2KjgjCvd7gV0WVU4g.RxRe2vcXzmJ/WXLUQPRsE3yyjba9YCa:13571:0:99999:7
 
 [gpl-badge]: https://img.shields.io/badge/license-GPL-green.svg
 [gpl-license]: COPYING
-[travis-badge]: https://travis-ci.org/CyberNinjas/libnss_aad.svg?branch=master
-[travis-url]: https://travis-ci.org/CyberNinjas/libnss_aad
