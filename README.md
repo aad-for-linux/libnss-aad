@@ -64,5 +64,3 @@ tux:$2a$12$tlMH2KjgjCvd7gV0WVU4g.RxRe2vcXzmJ/WXLUQPRsE3yyjba9YCa:13571:0:99999:7
 
 [gpl-badge]: https://img.shields.io/badge/license-GPL-green.svg
 [gpl-license]: COPYING
-[travis-badge]: https://travis-ci.org/CyberNinjas/libnss_aad.svg?branch=master
-[travis-url]: https://travis-ci.org/CyberNinjas/libnss_aad
