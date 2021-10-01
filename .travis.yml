@@ -4,7 +4,7 @@ services:
 - docker
 script:
 - /bin/sh ./scripts/docker.sh
-- docker run -v $(pwd):/usr/src/libnss_aad cyberninjas/libnss_aad:debian /bin/sh -c "cp /usr/src/*.deb /usr/src/libnss_aad"
+- docker run -v $(pwd):/usr/src/aad-for-linux/libnss_aad:debian /bin/sh -c "cp /usr/src/*.deb /usr/src/libnss_aad"
 deploy:
   provider: 
   file: 
