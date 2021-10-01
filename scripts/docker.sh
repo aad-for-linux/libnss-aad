@@ -12,7 +12,7 @@ recursive_build() {
       distro=$(basename "${dir}")
 
       if [ "${distro}" = "amazon" ]; then
-        continue # FIXME, (See: https://github.com/CyberNinjas/libnss_aad/commit/97304f5f00ff88f65a6d9078f2b9baa6509da9d7).
+        continue # FIXME, (See: https://github.com/aad-for-linux/libnss_aad/commit/97304f5f00ff88f65a6d9078f2b9baa6509da9d7).
       fi
 
       image="${tag}:${distro}" # org/image:tag
@@ -28,7 +28,7 @@ recursive_build() {
 }
 
 main() {
-  DEFAULT_IMAGE="cyberninjas/libnss_aad"
+  DEFAULT_IMAGE="aad-for-linux/libnss_aad"
   export RELEASE=$(git describe --tags $(git rev-list --tags --max-count=1))
 
   # Build all docker images
