@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: libnss_aad
 Upstream-Contact: Infinite Omicron, LLC. <open.source@infinite-omicron.com>
-Source: https://github.com/aad-for-linux/libnss_aad
+Source: https://github.com/aad-for-linux/libnss-aad
 
 Files: *
 Copyright: 2021 Infinite Omicron, LLC. <open.source@infinite-omicron.com>
