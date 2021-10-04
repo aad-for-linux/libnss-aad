@@ -12,7 +12,7 @@ recursive_build() {
       distro=$(basename "${dir}")
 
       if [ "${distro}" = "amazon" ]; then
-        continue # FIXME, (See: https://github.com/aad-for-linux/libnss_aad/commit/97304f5f00ff88f65a6d9078f2b9baa6509da9d7).
+        continue # FIXME, (See: https://github.com/aad-for-linux/libnss-aad/commit/97304f5f00ff88f65a6d9078f2b9baa6509da9d7).
       fi
 
       image="${tag}:${distro}" # org/image:tag
