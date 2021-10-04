@@ -48,7 +48,7 @@ sudo make install
 
   - Delete any existing permissions (The delegated permission, `Microsoft Graph (1)`, `User.Read` seems to be added by default).
 
-  **NOTE: This module makes use of the `Windows Azure Active Directory` API, not the `Microsoft Graph` API** (pam_aad - [#8](https://github.com/aad-for-linux/pam_aad/issues/8), deprecation notice - [#2](https://github.com/aad-for-linux/libnss_aad/issues/2)).
+  **NOTE: This module makes use of the `Windows Azure Active Directory` API, not the `Microsoft Graph` API** (pam_aad - [#8](https://github.com/CyberNinjas/pam_aad/issues/8), deprecation notice - [#2](https://github.com/CyberNinjas/libnss_aad/issues/2)).
 
   - Select "Add a permission", then under "Supported legacy APIs", choose `Azure Active Directory Graph`.
 
