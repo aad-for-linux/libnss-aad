@@ -5,7 +5,7 @@
 1) Fetch source code:
 
 ```terminal
-git clone https://github.com/aad-for-linux/libnss_aad
+git clone https://github.com/aad-for-linux/libnss-aad
 
 cd libnss_aad
 ```
