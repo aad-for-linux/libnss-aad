@@ -1,4 +1,4 @@
-# libnss_aad
+# libnss-aad
 
 [![GPL-3.0-or-later][gpl-badge]][gpl-license]
 
