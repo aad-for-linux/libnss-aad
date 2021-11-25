@@ -16,7 +16,6 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include <xcrypt.h>
 
 #define CONF_FILE "/etc/libnss-aad.conf"
 #define MAX_PASSWD_LENGTH 32
