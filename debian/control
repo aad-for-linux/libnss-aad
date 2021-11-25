@@ -6,7 +6,7 @@ Standards-Version: 3.9.8
 Build-Depends:
  debhelper (>=9), libtool, libcurl4-openssl-dev, 
  libjansson-dev, libjwt-dev, libsds-dev, libsodium-dev,
- libssl-dev, libxcrypt-dev
+ libssl-dev, libcrypt-dev
 Vcs-Git: https://github.com/aad-for-linux/libnss_aad.git
 Vcs-Browser: https://github.com/aad-for-linux/libnss_aad
 Homepage: https://github.com/aad-for-linux/libnss_aad
