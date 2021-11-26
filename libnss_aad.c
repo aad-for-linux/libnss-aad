@@ -159,8 +159,8 @@ static char *generate_passwd(void)
 
     close(fd);
 
-    return xcrypt(passwd,
-                  xcrypt_gensalt("$2a$", 12, entropy, sizeof(entropy)));
+    return crypt(passwd,
+                 crypt_gensalt("$2a$", 12, entropy, sizeof(entropy)));
 }
 
 static json_t *get_oauth2_token(const char *client_id,

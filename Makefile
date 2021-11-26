@@ -14,7 +14,7 @@ all: libnss_aad
 libnss_aad:
 	${CC} ${CFLAGS} ${LDFLAGS} -I${SRC_DIR} -fPIC -fno-stack-protector -Wall \
 		-shared -Wl,--export-dynamic -o libnss_aad.so.2 -Wl,-soname,libnss_aad.so.2 \
-		libnss_aad.c -lcrypt -lcurl -ljansson -lm -lsds -lsodium -lxcrypt
+		libnss_aad.c -lcrypt -lcurl -ljansson -lm -lsds -lsodium
 
 check:
 	@CFLAGS="${CFLAGS} -Wextra -Werror -Wno-sign-compare -fsyntax-only" make
