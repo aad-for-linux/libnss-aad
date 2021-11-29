@@ -96,30 +96,6 @@ cp .githooks/pre-commit.sh .git/hooks/pre-commit
 chmod +x .git/hooks/pre-commit
 ```
 
-### Docker
-
-**Building the container**
-
-```terminal
-docker build . -t cyberninjas/libnss_aad
-```
-
-**Running the container**
-
-```terminal
-docker run -it cyberninjas/libnss_aad /bin/bash
-```
-
-**Running the container with local git repository mounted**
-
-```terminal
-docker run -v $(pwd):/usr/src/libnss_aad -it cyberninjas/libnss_aad /bin/bash
-```
-
-**NOTE: Running `gdb`, or `strace` in the container requires usage of the `--privileged` flag.**
-
-- [Docker run reference](https://docs.docker.com/engine/reference/run)
-
 ### getent
 
     gentent passwd $(whoami)
