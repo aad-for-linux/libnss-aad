@@ -1,6 +1,7 @@
 # libnss-aad
 
-[![GPL-3.0-or-later][gpl-badge]][gpl-license]
+[![GPL-3.0-or-later](https://img.shields.io/badge/license-GPL--3.0--or--later-blue?style=flat-square)](https://spdx.org/licenses/GPL-3.0-or-later.html)
+[![GitHub Actions](https://img.shields.io/github/workflow/status/aad-for-linux/libnss-aad/build?style=flat-square)](https://github.com/aad-for-linux/libnss-aad/actions)
 
 _Name Service Switch (NSS) Module for performing user lookups against the Azure Active Directory (AAD)._
 
@@ -61,6 +62,3 @@ tux:$2a$12$tlMH2KjgjCvd7gV0WVU4g.RxRe2vcXzmJ/WXLUQPRsE3yyjba9YCa:13571:0:99999:7
 
 - https://github.com/outlook/libnss-aad
 - https://github.com/donapieppo/libnss-ato
-
-[gpl-badge]: https://img.shields.io/badge/license-GPL-green.svg
-[gpl-license]: COPYING
